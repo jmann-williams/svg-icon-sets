@@ -1,0 +1,32 @@
+html {
+  font-family: Overpass, sans-serif;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  color: #fff;
+}
+
+.btn-ghost {
+  border: solid 3px rgba(255, 255, 255, .7);
+  color: #fff;
+}
+
+.btn:hover {
+  border: solid 3px #fff;
+  background-color: #fff;
+  color: #ff5e3a;
+}
+
+.card {
+  border-top: solid 3px rgba(255, 255, 255, .3);
+  border-bottom: solid 3px rgba(255, 255, 255, .3);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card {
+    border-top: none;
+    border-bottom: none;
+    border-left: solid 3px rgba(255, 255, 255, .3);
+    border-right: solid 3px rgba(255, 255, 255, .3);
+  }
+
+}
